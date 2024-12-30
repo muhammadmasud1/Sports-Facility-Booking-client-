@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Outfit, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6b7385;
+}
+.outfit {
+  font-family: Outfit, sans-serif !important;
+}
+
+.bg-nature {
+  background: rgb(23, 124, 130);
+}
+
+.hero-section {
+  width: 100%;
+  background: url("https://dreamsports.dreamstechnologies.com/react/template/static/media/banner.7fc0c87ab96535d6ee9a.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.siteBanner {
+  width: 100%;
+  background: url("https://dreamsports.dreamstechnologies.com/react/template/static/media/convenient-bg.a6e2646445e571e2fade.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.primary-liner {
+  -webkit-text-fill-color: #0000;
+  background: linear-gradient(
+    105.55deg,
+    #085a6c -6.68%,
+    #269089 43.13%,
+    #7abc82 96.15%
+  );
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  font-size: inherit;
+  font-weight: bold;
+}
+
+.news-letter {
+  background: linear-gradient(
+    93.86deg,
+    #006177 -2.6%,
+    #269089 67.39%,
+    #7abc82 110.84%
+  );
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.headerBanner {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url("https://dreamsports.dreamstechnologies.com/react/template/static/media/breadcrumb-bg2.764bf72ee919b156bf7d.jpg")
+      no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.style-icon {
+  background: linear-gradient(
+    105.55deg,
+    #085a6c -6.68%,
+    #269089 43.13%,
+    #7abc82 96.15%
+  );
+}
+
+/* slider */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  /* text-align: center; */
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
